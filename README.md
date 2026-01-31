@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import res2json from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-two-sample-results-to-json@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-ztest-two-sample-results-to-json/tags). For example,
+
+```javascript
 import res2json from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-two-sample-results-to-json@v0.1.0-esm/index.mjs';
 ```
 
@@ -103,7 +108,7 @@ The function supports the following parameters:
 import Float64Results from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-two-sample-results-float64@esm/index.mjs';
 import resolveEnum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-alternative-resolve-enum@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import res2json from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-two-sample-results-to-json@v0.1.0-esm/index.mjs';
+import res2json from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-two-sample-results-to-json@esm/index.mjs';
 
 var results = new Float64Results();
 results.rejected = true;
