@@ -45,14 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-ztest-two-sample-results-to-json
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import res2json from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-two-sample-results-to-json@deno/mod.js';
+var res2json = require( '@stdlib/stats-base-ztest-two-sample-results-to-json' );
 ```
 
 #### res2json( results )
@@ -60,7 +78,7 @@ import res2json from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-two
 Serializes a two-sample Z-test results object as a JSON object.
 
 ```javascript
-import Float64Results from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-two-sample-results-float64@deno/mod.js';
+var Float64Results = require( '@stdlib/stats-base-ztest-two-sample-results-float64' );
 
 var results = new Float64Results();
 
@@ -95,10 +113,10 @@ The function supports the following parameters:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import Float64Results from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-two-sample-results-float64@deno/mod.js';
-import resolveEnum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-alternative-resolve-enum@deno/mod.js';
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import res2json from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-two-sample-results-to-json@deno/mod.js';
+var Float64Results = require( '@stdlib/stats-base-ztest-two-sample-results-float64' );
+var resolveEnum = require( '@stdlib/stats-base-ztest-alternative-resolve-enum' );
+var Float64Array = require( '@stdlib/array-float64' );
+var res2json = require( '@stdlib/stats-base-ztest-two-sample-results-to-json' );
 
 var results = new Float64Results();
 results.rejected = true;
@@ -144,7 +162,7 @@ console.log( o );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -154,9 +172,14 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
+## License
+
+See [LICENSE][stdlib-license].
+
+
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -169,8 +192,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-base-ztest-two-sample-results-to-json.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-base-ztest-two-sample-results-to-json
 
-[test-image]: https://github.com/stdlib-js/stats-base-ztest-two-sample-results-to-json/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/stats-base-ztest-two-sample-results-to-json/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/stats-base-ztest-two-sample-results-to-json/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/stats-base-ztest-two-sample-results-to-json/actions/workflows/test.yml?query=branch:v0.1.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-base-ztest-two-sample-results-to-json/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-base-ztest-two-sample-results-to-json?branch=main
@@ -182,8 +205,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -199,6 +222,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/stats-base-ztest-two-sample-results-to-json/tree/esm
 [esm-readme]: https://github.com/stdlib-js/stats-base-ztest-two-sample-results-to-json/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/stats-base-ztest-two-sample-results-to-json/blob/main/branches.md
+
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-ztest-two-sample-results-to-json/main/LICENSE
 
 </section>
 
