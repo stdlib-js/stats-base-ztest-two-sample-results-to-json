@@ -172,9 +172,14 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
+## License
+
+See [LICENSE][stdlib-license].
+
+
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -187,8 +192,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-base-ztest-two-sample-results-to-json.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-base-ztest-two-sample-results-to-json
 
-[test-image]: https://github.com/stdlib-js/stats-base-ztest-two-sample-results-to-json/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/stats-base-ztest-two-sample-results-to-json/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/stats-base-ztest-two-sample-results-to-json/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/stats-base-ztest-two-sample-results-to-json/actions/workflows/test.yml?query=branch:v0.1.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-base-ztest-two-sample-results-to-json/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-base-ztest-two-sample-results-to-json?branch=main
@@ -200,8 +205,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -217,6 +222,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/stats-base-ztest-two-sample-results-to-json/tree/esm
 [esm-readme]: https://github.com/stdlib-js/stats-base-ztest-two-sample-results-to-json/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/stats-base-ztest-two-sample-results-to-json/blob/main/branches.md
+
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-ztest-two-sample-results-to-json/main/LICENSE
 
 </section>
 
