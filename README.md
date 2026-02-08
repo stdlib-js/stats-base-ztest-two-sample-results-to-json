@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import res2json from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-two-sample-results-to-json@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-ztest-two-sample-results-to-json/tags). For example,
+
+```javascript
 import res2json from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-two-sample-results-to-json@v0.1.1-deno/mod.js';
 ```
 
@@ -98,7 +103,7 @@ The function supports the following parameters:
 import Float64Results from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-two-sample-results-float64@deno/mod.js';
 import resolveEnum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-alternative-resolve-enum@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import res2json from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-two-sample-results-to-json@v0.1.1-deno/mod.js';
+import res2json from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-two-sample-results-to-json@deno/mod.js';
 
 var results = new Float64Results();
 results.rejected = true;
